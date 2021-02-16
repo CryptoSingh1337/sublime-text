@@ -1,0 +1,8 @@
+{
+ 
+ "shell_cmd": "g++ $file -o E:/sublime/cpp/out/${file_base_name} && E:/sublime/cpp/out/${file_base_name}",
+ 
+ "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+ 
+ "selector": "source.c, source.c++"
+}
