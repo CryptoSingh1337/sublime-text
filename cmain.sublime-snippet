@@ -14,11 +14,11 @@ int main() {
 #endif
 	std::ios_base::sync_with_stdio(false);
 	time_t start, end; 
-  time(&start); 
-  solve(); 
-  time(&end); 
-  double time_taken = double(end - start); 
-  cout << "Time elapsed: " << fixed << time_taken << setprecision(5) << endl;
+	time(&start); 
+	solve(); 
+	time(&end); 
+	double time_taken = double(end - start); 
+	cout << "Time elapsed: " << fixed << time_taken << setprecision(5) << endl;
 }
 ]]></content>
 	<tabTrigger>cmain</tabTrigger>
