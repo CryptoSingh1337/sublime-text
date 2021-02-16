@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+#include<stdio.h>
+
+void solve() {
+	
+}
+
+int main() {
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+	solve();
+}
+]]></content>
+	<tabTrigger>_c</tabTrigger>
+  	<source>source.c</source>
+</snippet>
